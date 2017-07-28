@@ -1,0 +1,52 @@
+{
+    "name": "pafo-common-web-package",
+    "version": "0.1.0",
+    "main": [
+        "./release/pafo-common-web-package.js"
+    ],
+    "dependencies": {
+        "moment": "^2.9.0",
+        "lodash": "2.4.1",
+        "bignumber.js": "latest",
+        "bootstrap": "~3.1",
+        "angular": "=1.2.26",
+        "angular-sanitize": "=1.2.26",
+        "angular-resource": "=1.2.26",
+        "angular-bootstrap": "~0.11.0",
+        "angular-ui-router": "~0.2",
+        "angular-file-upload": "~0.5.6",
+        "angular-local-storage": "~0.2.2",
+        "angular-bootstrap-colorpicker": ">= 3.0.0",
+        "angular-ui-select": "=0.9.9",
+        "angular-bootstrap-slider": "0.1.1",
+        "d3": "3.4.13",
+        "angularjs-slider": "^6.1.2",
+        "oclazyload": "1.1.0"
+    },
+    "devDependencies": {
+        "angular-mocks": "=1.2.26"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "build",
+        "bower_components",
+        "vendor",
+        "karma",
+        "src",
+        "test",
+        "tests",
+        "grunt",
+        "Gruntfile.js",
+        "build.config.js",
+        "proxy.config.js",
+        "package.json",
+        ".bowerrc",
+        "bin",
+        "pom.xml",
+        "*.iml",
+        "module.prefix",
+        "module.suffix",
+        "bower.local.json"
+    ]
+}
